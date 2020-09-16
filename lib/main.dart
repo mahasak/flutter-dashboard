@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(home: Dashboard()));
+void main() =>
+    runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Dashboard()));
 
 class Dashboard extends StatelessWidget {
   @override
